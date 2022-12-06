@@ -11,5 +11,5 @@ My first post.
 public void hi(String name){
   System.out.println("hello " + name);
 }
-hi('Tom');
+hi("Tom");
 ```
