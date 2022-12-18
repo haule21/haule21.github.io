@@ -1,4 +1,6 @@
 ---
+layout: spring
+permalink: https://haule21.github.io/spring/
 title: "객체 지향 설계 5원칙 - SOLID"
 categories: solid oop spring java
 ---
