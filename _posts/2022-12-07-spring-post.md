@@ -1,7 +1,7 @@
 ---
 permalink: spring/
 title: "객체 지향 설계 5원칙 - SOLID"
-categories: solid oop spring java
+categories: spring java
 ---
 
 SOLID는 아래 5가지 원칙 앞 머리 알파벳을 따서 부르는 이름이다.
