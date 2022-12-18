@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: spring/
 title: "객체 지향 설계 5원칙 - SOLID"
 categories: spring java
