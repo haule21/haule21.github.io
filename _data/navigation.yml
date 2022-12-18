@@ -1,16 +1,16 @@
 # main links
 main:
   - title: "spring"
-    url: https://haule21.github.io/spring/
+    url: /spring/
   - title: "javascript"
-    url: https://haule21.github.io/javascript
+    url: /javascript/
   - title: "java"
-    url: https://haule21.github.io/java
+    url: /java/
   - title: "python"
-    url: https://haule21.github.io/python
+    url: /python/
   - title: "database"
-    url: https://haule21.github.io/database
+    url: /database/
   - title: "vulnerability"
-    url: https://haule21.github.io/vulnerability
+    url: /vulnerability/
   - title: "bugbounty"
-    url: https://haule21.github.io/bugbounty
+    url: /bugbounty
