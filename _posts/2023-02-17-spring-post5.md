@@ -14,7 +14,7 @@ categories: spring
 
 ## Configuration
 - Spring Security를 기본 설정으로 활성화 하려면, servlet Filter를 만들고 Bean의 이름을 securityFilterChain 으로 해야됨
-```
+```java
 public class SecurityConfig{
 
     @Bean
@@ -24,7 +24,7 @@ public class SecurityConfig{
 }
 ```
 - Spring Security 적용 예시
-```
+```java
 @Configuration
 public class SecurityConfig{
 
@@ -55,7 +55,7 @@ public class SecurityConfig{
 - Annotation 을 SecurityConfig에 추가 해준다.
 - PreAuthorize, PostAuthorize, PreFilter, PostFilter 등 사용 할 수 있다.
 
-```
+```java
 @PreAuthorize("hasRole('ADMIN')")
 @RequestMapping(value="/needAdminAuth", method=RequestMethod.POST)
 public ...
@@ -65,7 +65,7 @@ public ...
 - DB를 통해 불러오는 방법과 Memory에 사용자를 등록해서 검증하는 방법이 있다.
 
 - Memory
-```
+```java
 public UserDetailsService userDetailService(){
     UserDetails user = User.builder()
                         .username("user")
@@ -85,7 +85,7 @@ public UserDetailsService userDetailService(){
 ```
 
 - DB
-```
+```java
 public UserDetailsManager users(DataSource dataSource) {
     JdbcUserDetailsManager users = new JdbcUserDetailsManager(dataSource);
 
@@ -100,7 +100,7 @@ public UserDetailsManager users(DataSource dataSource) {
 ```
 ** 그래서 form 작성은 어떻게 하면 될까? **
 
-```
+```java
 @Configuration
 public class SecurityConfig{
 
@@ -147,7 +147,7 @@ public class SecurityConfig{
 
 ## 로그인, 로그아웃 Controller
 
-```
+```java
     @RequestMapping("/login")
 	public ModelAndView login(ModelAndView mv) {
 
@@ -156,7 +156,7 @@ public class SecurityConfig{
 	}
 ```
 
-```
+```java
     @RequestMapping(value = "/logout", method = RequestMethod.GET)
     public ModelAndView logout(
         HttpServletRequest request, 
