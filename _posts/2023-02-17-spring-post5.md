@@ -40,7 +40,7 @@ public class SecurityConfig{
 }
 ```
 
-- [Stackoverflow에 올라온 답변] (https://stackoverflow.com/questions/57574981/what-is-httpbasic-method-in-spring-security)
+- [Stackoverflow에 올라온 답변](https://stackoverflow.com/questions/57574981/what-is-httpbasic-method-in-spring-security)
 
 `httpBasic 을 왜 사용하는 걸까?`
 - httpBasic이 호출이 되면 Authorization 요청 헤더가 전달한 값을 사용하여 요청을 인증하도록 Spring에게 알려준다. 인증되지 않은 요청일 경우에는 401 에러를 발생시킨다. (error message는 Unauthorized)
@@ -142,7 +142,7 @@ public class SecurityConfig{
 
 
 버전에 따라 적용 방법이 조금씩 차이가 있어서 해맸는데 마침 좋은 영상이 있어서 글로 간단히 정리 해서 남긴다.
-- [Learn Spring Security 6 with Spring Boot 3] (https://www.youtube.com/watch?v=bB6A490Uh5M)
+- [Learn Spring Security 6 with Spring Boot 3](https://www.youtube.com/watch?v=bB6A490Uh5M)
 
 
 ## 로그인, 로그아웃 Controller
