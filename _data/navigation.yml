@@ -1,12 +1,16 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "spring"
+    url: /categories/spring
+  - title: "javascript"
+    url: /categories/javascript
+  - title: "java"
+    url: /categories/java
+  - title: "python"
+    url: /categories/python
+  - title: "database"
+    url: /categories/database
+  - title: "vulnerability"
+    url: /categories/vulnerability
+  - title: "bugbounty"
+    url: /categories/bugbounty
